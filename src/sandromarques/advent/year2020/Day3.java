@@ -45,7 +45,7 @@ public class Day3 {
             e.printStackTrace();
         }
     }
-    
+
     private int countTrees(char[][] matrix, int col, int line, int moveCol, int moveLine) {
         if (line >= matrix.length) return 0;
         if (col >= matrix[0].length) col -= matrix[0].length;
