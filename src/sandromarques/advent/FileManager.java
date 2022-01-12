@@ -6,11 +6,11 @@ public class FileManager {
     private static final String EXTENSION = ".txt";
     private static final String FOLDER = "inputfiles/";
 
-    public static File getFile(int day, int part) {
-        return new File(FOLDER + "day" + day + "_part" + part + EXTENSION);
+    public static File getFile(int day, int year, int part) {
+        return new File(FOLDER + year + "/" + "day" + day + "_part" + part + EXTENSION);
     }
 
-    public static File getFile(int day) {
-        return new File(FOLDER + "day" + day + EXTENSION);
+    public static File getFile(int day, int year) {
+        return new File(FOLDER + year + "/" + "day" + day + EXTENSION);
     }
 }

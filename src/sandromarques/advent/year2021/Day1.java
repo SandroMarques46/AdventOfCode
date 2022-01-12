@@ -1,4 +1,6 @@
-package sandromarques.advent;
+package sandromarques.advent.year2021;
+
+import sandromarques.advent.FileManager;
 
 import java.io.BufferedReader;
 import java.io.File;
@@ -10,8 +12,8 @@ public class Day1 {
 
     public static void main(String[] args) {
         Day1 day1 = new Day1();
-        day1.part1(FileManager.getFile(1,1)); //correct answer : 1288
-        day1.part2(FileManager.getFile(1,2)); //correct answer : 1311
+        day1.part1(FileManager.getFile(1, 2021, 1)); //correct answer : 1288
+        day1.part2(FileManager.getFile(1, 2021, 2)); //correct answer : 1311
     }
 
     private void part1(File file) {

@@ -1,4 +1,6 @@
-package sandromarques.advent;
+package sandromarques.advent.year2021;
+
+import sandromarques.advent.FileManager;
 
 import java.io.*;
 import java.util.ArrayList;
@@ -16,8 +18,8 @@ public class Day13 {
 
     public static void main(String[] args) {
         Day13 day13 = new Day13();
-        day13.parts(FileManager.getFile(13),true);
-        day13.parts(FileManager.getFile(13),false);
+        day13.parts(FileManager.getFile(13, 2021),true);
+        day13.parts(FileManager.getFile(13, 2021),false);
         //part1 : 770
         //part2 output : day13.txt (EPUELPBR)
     }
