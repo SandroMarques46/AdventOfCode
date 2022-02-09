@@ -14,7 +14,7 @@ public class Day5 {
     public static void main(String[] args) {
         Day5 day = new Day5();
         day.parts(FileManager.getFile(5, 2020), true); //correct answer : 911
-        day.parts(FileManager.getFile(5, 2020), false); //correct answer :
+        day.parts(FileManager.getFile(5, 2020), false); //correct answer : 629
     }
 
     private void parts(File file, boolean part1) {
