@@ -10,7 +10,7 @@ public class Daytemplate {
 
     public static void main(String[] args) {
         Daytemplate day = new Daytemplate();
-        day.part1(FileManager.getFile(1, 2020)); //correct answer :
+        day.part1(FileManager.getFile(1, 2022)); //correct answer :
     }
 
     private void part1(File file) {
